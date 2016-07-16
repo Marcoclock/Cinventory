@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="marcorafael.prueba1.fragmentAgregar">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+
+                    <EditText
+                        android:layout_width="229dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/etfa_codigo"
+                        android:hint="Codigo"
+                        android:textColor="@android:color/holo_green_dark" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="Codigo"
+                        android:id="@+id/bfa_codigo"
+                        android:layout_margin="10dp"
+                        android:background="@android:color/holo_green_dark"
+                        android:textColor="#ffffff" />
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Posee Codigo"
+                    android:id="@+id/cb_poseecodigo"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_nombre"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:hint="Nombre"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_fadquisicion"
+                    android:hint="Fecha de Adquisicion"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_marca"
+                    android:hint="Marca"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_modelo"
+                    android:hint="Modelo"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_referencia"
+                    android:hint="Referencia"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_cantidad"
+                    android:hint="Cantidad"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etfa_ubicacion"
+                    android:hint="Ubicacion"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Seleccione el Estado del Articulo:"
+                    android:id="@+id/twfa_seleccioneestado"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:layout_marginTop="10dp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nuevo"
+                        android:id="@+id/rgfa_nuevo"
+                        android:textColorHint="@android:color/holo_green_dark" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bueno"
+                        android:id="@+id/rgfa_bueno"
+                        android:textColorHint="@android:color/holo_green_dark" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dañado"
+                        android:id="@+id/rgfa_danado"
+                        android:textColorHint="@android:color/holo_green_dark" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reparacion"
+                        android:id="@+id/rgfa_reparacion"
+                        android:textColorHint="@android:color/holo_green_dark" />
+                </RadioGroup>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guardar"
+                    android:id="@+id/bfa_guardar"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/btn_circle_logo"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
