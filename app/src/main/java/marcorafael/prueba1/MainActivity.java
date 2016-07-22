@@ -75,7 +75,7 @@ boolean fragmenttransiction = false;
         Fragment fragment = null;
 
         if (id == R.id.agregar) {
-            // Handle the camera action
+
             fragment = new fragmentAgregar();
             fragmenttransiction = true;
         } else if (id == R.id.buscar) {

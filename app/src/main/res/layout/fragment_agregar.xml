@@ -31,7 +31,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/etfa_codigo"
                         android:hint="Codigo"
-                        android:textColor="@android:color/holo_green_dark" />
+                        android:textColor="@color/colorPrimary" />
 
                     <Button
                         android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
                         android:text="Codigo"
                         android:id="@+id/bfa_codigo"
                         android:layout_margin="10dp"
-                        android:background="@android:color/holo_green_dark"
+                        android:background="@color/colorPrimary"
                         android:textColor="#ffffff" />
 
                 </LinearLayout>
@@ -49,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:text="Posee Codigo"
                     android:id="@+id/cb_poseecodigo"
-                    android:textColor="@android:color/holo_green_dark" />
+                    android:textColor="@color/colorPrimary" />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -59,49 +59,49 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:hint="Nombre"
-                    android:textColor="@android:color/holo_green_dark" />
+                    android:textColor="@color/colorPrimary" />
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/etfa_fadquisicion"
                     android:hint="Fecha de Adquisicion"
-                    android:textColor="@android:color/holo_green_dark" />
+                    android:textColor="@color/colorPrimary" />
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/etfa_marca"
                     android:hint="Marca"
-                    android:textColor="@android:color/holo_green_dark" />
+                    android:textColor="@color/colorPrimary" />
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/etfa_modelo"
                     android:hint="Modelo"
-                    android:textColor="@android:color/holo_green_dark" />
+                    android:textColor="@color/colorPrimary" />
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/etfa_referencia"
                     android:hint="Referencia"
-                    android:textColor="@android:color/holo_green_dark" />
+                    android:textColor="@color/colorPrimary" />
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/etfa_cantidad"
                     android:hint="Cantidad"
-                    android:textColor="@android:color/holo_green_dark" />
+                    android:textColor="@color/colorPrimary" />
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/etfa_ubicacion"
                     android:hint="Ubicacion"
-                    android:textColor="@android:color/holo_green_dark" />
+                    android:textColor="@color/colorPrimary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -109,7 +109,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="Seleccione el Estado del Articulo:"
                     android:id="@+id/twfa_seleccioneestado"
-                    android:textColor="@android:color/holo_green_dark"
+                    android:textColor="@color/colorPrimary"
                     android:layout_marginTop="10dp" />
 
                 <RadioGroup
@@ -121,28 +121,28 @@
                         android:layout_height="wrap_content"
                         android:text="Nuevo"
                         android:id="@+id/rgfa_nuevo"
-                        android:textColorHint="@android:color/holo_green_dark" />
+                        android:textColorHint="@color/colorPrimary" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Bueno"
                         android:id="@+id/rgfa_bueno"
-                        android:textColorHint="@android:color/holo_green_dark" />
+                        android:textColorHint="@color/colorPrimary" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Dañado"
                         android:id="@+id/rgfa_danado"
-                        android:textColorHint="@android:color/holo_green_dark" />
+                        android:textColorHint="@color/colorPrimary" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Reparacion"
                         android:id="@+id/rgfa_reparacion"
-                        android:textColorHint="@android:color/holo_green_dark" />
+                        android:textColorHint="@color/colorPrimary" />
                 </RadioGroup>
 
                 <Button
