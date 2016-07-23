@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Seleccione alguna accion:"
+        android:text="Seleccione Formato:"
         android:textColor="#000000"
         android:textSize="18dp"
         android:layout_marginTop="10dp"
@@ -22,7 +22,6 @@
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:text="Excel"
         android:id="@+id/bfex_excel"
         android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/textView"
@@ -30,21 +29,43 @@
         android:layout_marginLeft="57dp"
         android:layout_marginStart="57dp"
         android:layout_marginTop="51dp"
-        android:background="@drawable/btn_circle_logo"
+        android:background="@drawable/logodeexcel"
         android:textColor="#ffffff"
         android:textSize="18dp" />
 
     <Button
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:text="aaa"
         android:id="@+id/button2"
         android:layout_below="@+id/bfex_excel"
         android:layout_alignLeft="@+id/bfex_excel"
         android:layout_alignStart="@+id/bfex_excel"
         android:layout_marginTop="26dp"
-        android:background="@drawable/btn_circle_logo"
+        android:background="@drawable/logointer"
         android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excel"
+        android:id="@+id/tvfex_excel"
+        android:layout_alignTop="@+id/bfex_excel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InterLED"
+        android:id="@+id/tvfex_planillaled"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignLeft="@+id/tvfex_excel"
+        android:layout_alignStart="@+id/tvfex_excel"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
         android:textSize="18dp" />
 
 </RelativeLayout>
