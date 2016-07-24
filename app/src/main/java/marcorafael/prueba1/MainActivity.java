@@ -83,6 +83,8 @@ boolean fragmenttransiction = false;
         } else if (id == R.id.estado) {
 
         }else if (id == R.id.exportar) {
+            fragment = new fragmentExportar();
+            fragmenttransiction = true;
 
         } else if (id == R.id.configuracion) {
 
